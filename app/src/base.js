@@ -2,12 +2,14 @@ import * as firebase from 'firebase/app';
 import "firebase/auth";
 
 const app = firebase.initializeApp({
-  apiKey: process.env.REACT_APP_FIREBASE_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_DOMAIN,
-  databaseUrl: process.env.REACT_APP_FIREBASE_DATABASE,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId:process.env.REACT_APP_FIREBASE_SENDER_ID
+  apiKey: "AIzaSyAn9JctgsXKuTCY9rEzFdpBslATUV29R_c",
+  authDomain: "tredemapp.firebaseapp.com",
+  databaseURL: "https://tredemapp.firebaseio.com",
+  projectId: "tredemapp",
+  storageBucket: "tredemapp.appspot.com",
+  messagingSenderId: "913432377673",
+  appId: "1:913432377673:web:b66326e1e64e194bed4298",
+  measurementId: "G-R2SFWHW2TB"
 });
 
 export default app;

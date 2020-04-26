@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Home() {
-  return <h1>Sig Up</h1>;
+export default function SignUp() {
+  return <h1>Sign Up</h1>;
 };
